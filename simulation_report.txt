@@ -1,0 +1,31 @@
+============================================================
+SIMULATION REPORT
+============================================================
+Model: Simple Excitatory-Inhibitory Network
+Purpose: Demonstrate how E and I interaction can generate collective activity
+
+Simulation settings
+  Duration: 1000.0 ms
+  Time step: 0.0250 ms
+  Bin size for population analysis: 5 ms
+
+Network size
+  Excitatory cells (E): 40
+  Inhibitory cells (I): 10
+  Total cells: 50
+
+Spike summary
+  Total spikes: 718
+  E spikes: 428
+  I spikes: 290
+  Mean firing rate: 14.36 Hz
+  E population firing rate: 10.70 Hz
+  I population firing rate: 29.00 Hz
+  ISI coefficient of variation: 2.969
+
+Rhythm analysis
+  Dominant frequency: 35.94 Hz
+  Dominant power: 394.3143
+
+Interpretation: The network is active, but a clear alpha/beta rhythm was not detected.
+============================================================
